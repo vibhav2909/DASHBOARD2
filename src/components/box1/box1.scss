@@ -1,0 +1,92 @@
+.x{
+   .x1{
+    display: flex;
+    justify-content: space-between;
+   }
+    gap:30px;
+        height: 200px;
+        width: 300px;
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            
+            .pics{
+                .pic1{
+                    
+                    img{
+                       
+                        width: 40px;
+                       height: 40px;
+                       border-radius: 50%;
+                       margin-left: 10px;
+                       
+                    }
+                }
+                        .pic2{
+                    img{
+                        width: 40px;
+                       height: 40px;
+                       border-radius: 50%;
+                       margin-left: 10px;
+                    }
+                }
+                .pic3{
+                         img{
+                        width: 40px;
+                       height: 40px;
+                       border-radius: 50%;
+                       margin-left: 10px;
+                    }
+                }
+            }
+            .name{
+                
+                justify-content: center;
+                
+                .name1{
+            
+                    height: 40px;
+                    .ui{
+                        font-size: 12px;
+                        color: gray;
+                    }
+                }
+                .name2{
+                    margin-top: 5px;
+                    height: 40px;
+                    .ui{
+                        font-size: 12px;
+                        color: gray;
+                    }
+                }
+                .name3{
+                    margin-top: 5px;
+                    height: 40px;
+                    .ui{
+                        font-size: 12px;
+                        color: gray;
+                    }
+                }
+            }
+            .money{
+                .mo1{
+                    margin-top: 10px;
+                    height: 40px;
+                    margin-right: 10px;
+
+                    color: blue;
+                }
+                .mo2{
+                    margin-top: 5px;
+                    height: 40px;
+                    color: green;
+                }
+                .mo3{
+                    margin-top: 5px;
+                    height: 40px;
+                    color:red;
+                }
+            }
+        }
+    
+}

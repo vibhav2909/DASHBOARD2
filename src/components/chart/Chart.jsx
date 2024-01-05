@@ -1,5 +1,5 @@
 import "./chart.scss"
-import "./bargraph.scss"
+
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Bargraph from "./Bargraph";
@@ -99,7 +99,7 @@ const Chart = () => {
   <Area type="monotone" dataKey="Visit" stroke="#8884d8" fillOpacity={1} fill="url(#Visit)" />
   <Area type="monotone" dataKey="Sale" stroke="#82ca9d" fillOpacity={1} fill="url(#Sale)" />
 </AreaChart>
-<Bargraph/>
+
     </div>
   )
 }

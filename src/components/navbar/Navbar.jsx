@@ -6,12 +6,17 @@ import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import YoutubeSearchedForIcon from '@mui/icons-material/YoutubeSearchedFor';
 import { UploadOutlined } from "@mui/icons-material";
 import MenuIcon from '@mui/icons-material/Menu';
+import BackHandIcon from '@mui/icons-material/BackHand';
 const Navbar = () => {
   return (
     <div className='navbar'>
     <div className="wrapper">
     <div className="item">
+        <div className="hii">
             <MenuIcon/>
+            Hello Mad
+            <BackHandIcon/>
+            </div>
         </div>
         <div className="search">
             <input type="text" placeholder="Search Here"/>
@@ -20,7 +25,7 @@ const Navbar = () => {
         
         <div className="items">
             <div className="item">
-                upload image
+                New Upload
                 <UploadOutlined/>
             </div>
             <div className="item">

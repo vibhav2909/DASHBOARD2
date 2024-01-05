@@ -1,3 +1,11 @@
 .bargraphcontainer {
-    
+    .st{
+      display: flex;
+      gap: 165px;
+
+      .hi{
+        display: flex;
+        color: red;
+      }
+    }
   }

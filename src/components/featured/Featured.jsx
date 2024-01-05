@@ -1,11 +1,13 @@
 import "./featured.scss"
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { CircularProgressbar } from 'react-circular-progressbar';
+//import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+
 const Featured = () => {
   return (
     <div className='featured'>
@@ -16,8 +18,9 @@ const Featured = () => {
       <div className="bottom">
 
       <div className="featuredChart">
-       
-            <CircularProgressbar value={70} text={"3500 "} strokeWidth={5}/>
+      
+            <CircularProgressbar value={70} text={"3500 "} strokeWidth={6} />
+
         </div>
         <div className="down">
         <p className="title">Current Week</p>

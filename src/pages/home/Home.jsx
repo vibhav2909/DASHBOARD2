@@ -5,8 +5,9 @@ import Widget from "../../components/widget/Widget"
 import Featured from "../../components/featured/Featured"
 import Chart from "../../components/chart/Chart"
 import Table from "../../components/table/Table"
-import Bargraph from "../../components/chart/Bargraph"
-
+import Bargraph from "../../components/bargraph/Bargraph"
+import Box1 from "../../components/box1/Box1"
+import Query from "../../components/query/Query"
 const Home = () => {
   return (
     <div
@@ -23,12 +24,13 @@ const Home = () => {
           <div className="charts">
             
           <Chart/>
-
-          </div>
           <Bargraph/>
+          </div>
+          
           <div className="circle">
           <Featured/>  
-            
+          <Box1/>   
+          <Query/>    
              
           </div>         
           <div className="listContainer">

@@ -1,0 +1,136 @@
+.query{
+    flex:3;
+    .Top{
+    margin-left: 20px;
+    display: flex;
+    flex:2;
+    justify-content: space-between;
+    margin-right: 20px;
+    color: gray;
+   
+    }
+    .bottom{
+        display: flex;
+       
+        margin-right: 20px;
+        margin-left: 20px;
+        .pics{
+            .pic1{
+                
+                img{
+                  margin-top: 20px; 
+                    width: 60px;
+                   height: 60px;
+                   border-radius: 50%;
+                   margin-left: 10px;
+                   
+                }
+            }
+                    .pic2{
+                img{
+                    width: 60px;
+                   height: 60px;
+                   border-radius: 50%;
+                   margin-left: 10px;
+                }
+            }
+            .pic3{
+                     img{
+                    width: 60px;
+                   height: 60px;
+                   border-radius: 50%;
+                   margin-left: 10px;
+                }
+            }
+        }
+        .name{
+                
+            justify-content: center;
+            
+            .name1{
+                margin-right: 170px;
+                margin-top: 30px;
+                height: 60px;
+                .ui{
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+            .name2{
+                
+                margin-top: 10px;
+                height: 60px;
+                .ui{
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+            .name3{
+                margin-top: 5px;
+                height: 60px;
+                .ui{
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+            .name4{
+                margin-top: 5px;
+                height: 60px;
+                .ui{
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+        }
+        .abc{
+            display: flex;
+            gap:30px;
+        .money{
+            .mo1{
+                margin-top: 40px;
+                height:60px;
+                color:rgb(24, 208, 208);
+            }
+            .mo2{
+                
+                height:60px;
+                color:rgb(24, 208, 208);
+            }
+            .mo3{
+               
+                height:60px;
+                color:rgb(24, 208, 208);
+            }
+            .mo4{
+         
+                height:60px;
+                color:rgb(24, 208, 208);
+            }
+        }
+        .dec{
+            .dec1{
+                margin-top: 40px;
+                height:60px;
+                margin-right: 20px;
+                color:red;
+            }
+            .dec2{
+                
+                height:60px;
+                color:red;
+            }
+            .dec3{
+               
+                height:60px;
+                color:red;
+            }
+            .dec4{
+         
+                height:60px;
+                color:red;
+            }
+        }
+    }
+    }
+
+}
